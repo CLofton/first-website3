@@ -8,20 +8,21 @@ body {
 
 /* Style the header */
 header {
-  background-color: pink;
+  background-color: silver;
   padding: 100px;
   text-align: center;
   font-size: 30px;
-  color: violet;
+  color: black;
 }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 1000px; 
   background: #ccc;
   padding: 20px;
+  color: blue;
 }
 
 /* Style the list inside the menu */
@@ -35,7 +36,7 @@ article {
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 100%;
 }
 
 /* Clear floats after the columns */
@@ -59,4 +60,17 @@ footer {
     width: 100%;
     height: auto;
   }
+}
+
+
+#hide1 {
+  display: block;
+}
+
+#hide2 {
+  display: none;
+}
+
+#hide3 {
+  display: none;
 }
